@@ -1,0 +1,100 @@
+p,
+a {
+    font: 1.0em "Courier New", sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+a {
+    color: black;
+}
+
+.name {
+    font-size: 50px;
+}
+
+.title,
+.title-2,
+.name,
+.travail,
+.option,
+.title-3 {
+    color: gray;
+    text-transform: uppercase;
+}
+
+.title,
+.name {
+    font-weight: bolder;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+.title-2,
+.name {
+    text-align: center;
+}
+
+.title {
+    font-size: 40px;
+    display: inline;
+}
+
+.margin-pays {
+    margin-left: 75px;
+}
+
+.content {
+    margin-top: 40px;
+}
+
+.title-2 {
+    font-size: 30px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+
+.date,
+.travail {
+    display: inline-block;
+}
+
+.duree {}
+
+.travail {
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+a>p {
+    text-decoration: inherit;
+}
+
+a>p:not(:first-child) {
+    margin-left: -15px; 
+}
+
+.date {
+    margin-right: 50px;
+    vertical-align: top;
+    text-decoration: underline;
+}
+
+.ville {
+    margin-bottom: 15px;
+}
+
+.task {
+    margin-top: 15px;
+}
+
+.option,
+.title-3 {
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.title,
+.title-2 {
+    font: 2em "Arial", sans-serif;
+}

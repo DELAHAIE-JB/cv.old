@@ -1,0 +1,72 @@
+.center {}
+
+.sizer {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 30px;
+
+}
+
+.left,
+.right {
+    display: flex;
+    vertical-align: top;
+}
+
+.left {
+    border-right: 3px solid gray;
+    border-radius: 100px;
+    float: left;
+    max-width: 30%;
+}
+
+.right {
+    border-right: 3px solid gray;
+    border-radius: 30px;
+
+}
+
+@media only screen and (max-width: 1024px) {
+    .left {
+        max-width: fit-content;
+    }
+
+    .right {
+        min-width: min-content;
+    }
+}
+
+.box-top {
+    border-top: 3px solid gray;
+}
+
+.box-bottom {
+    border-bottom: 3px solid gray;
+    padding-bottom: 25px;
+}
+
+.card-left {
+    margin-left: 0px;
+    margin-right: 10px;
+}
+
+.card-right {
+    margin-right: 0px;
+    margin-left: 10px;
+}
+
+.annee {
+    margin-bottom: 50px;
+}
+
+.date {
+    padding: 10px;
+    border-right: 3px solid rgba(128, 128, 128, 0.6);
+    border-bottom: 3px solid rgba(128, 128, 128, 0.6);
+    border-radius: 15px;
+}
+
+.categorie {
+    margin-bottom: 125px;
+}

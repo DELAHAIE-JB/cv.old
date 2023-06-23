@@ -1,0 +1,43 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin-top: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+p {
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.inline {
+    display: inline-block;
+}
+
+img {
+    min-width: 50px;
+    min-height: 50px;
+    max-width: 50px;
+    max-height: 50px;
+    display: inline;
+    position: relative;
+}
+
+.img-titre {
+    margin-right: 30px;
+    margin-top: 15px;
+
+    margin-bottom: -10px
+}
+
+.img-valeur {
+    margin-right: 5px;
+    margin-top: 20px;
+
+    margin-bottom: -15px
+}
