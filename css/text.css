@@ -1,8 +1,8 @@
 p,
 a {
-    font: 1.0em "Courier New", sans-serif;
+    font-family: "Times New Roman", sans-serif;
     font-size: 22px;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 a {
@@ -19,6 +19,7 @@ a {
 .travail,
 .option,
 .title-3 {
+    font-family: 'Poppins', sans-serif;
     color: gray;
     text-transform: uppercase;
 }
@@ -71,7 +72,7 @@ a>p {
 }
 
 a>p:not(:first-child) {
-    margin-left: -15px; 
+    margin-left: -5px;
 }
 
 .date {
